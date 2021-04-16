@@ -4,6 +4,7 @@ Before do
 
   # variável global 
   @nav = Navigator.new
+  @login = LoginScreen.new
 
   # Evento de clique no botão Começar
   find_element(xpath: "//android.widget.Button[@text='COMEÇAR']").click

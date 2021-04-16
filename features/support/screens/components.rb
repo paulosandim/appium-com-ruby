@@ -8,4 +8,9 @@ class Navigator
     def list
         return find_element(id: "io.qaninja.android.twp:id/rvNavigation") # o metodo é booleano, por isso ?
     end
+
+    def tap_by_text(target)
+        find_element(xpath: "//*[@text='#{target}']").click
+    end
+
 end
