@@ -14,3 +14,11 @@ class Navigator
     end
 
 end
+
+class Toaster
+
+    def toast
+        return find_element(xpath: "//android.widget.Toast")
+    end
+    
+end

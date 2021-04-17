@@ -11,5 +11,5 @@ end
 
 Então('devo ver a notificação: {string}') do |notice|
     # log(get_source) => obter o código XML da página
-    expect(@login.toast.text).to eql notice
+    expect(@toaster.toast.text).to eql notice
 end

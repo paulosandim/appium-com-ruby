@@ -4,6 +4,7 @@ Before do
 
   # variável global 
   @nav = Navigator.new
+  @toaster = Toaster.new
   @login = LoginScreen.new
 
   # Evento de clique no botão Começar
